@@ -391,3 +391,37 @@ h1 {
 [dir="rtl"] .equals-separator {
   text-align: center;
 }
+.banner {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.app.dark-mode .banner {
+  border-top-color: #444;
+  color: #999;
+}
+
+.banner a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.banner a:hover {
+  color: #357abd;
+  text-decoration: underline;
+}
+
+.app.dark-mode .banner a {
+  color: #7eb3ff;
+}
+
+.app.dark-mode .banner a:hover {
+  color: #a8d0ff;
+}

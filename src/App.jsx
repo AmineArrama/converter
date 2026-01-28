@@ -35,6 +35,11 @@ function App() {
     return language === "ar" ? "rtl" : "ltr";
   };
 
+  // Update document title when language changes
+  useEffect(() => {
+    document.title = t("title");
+  }, [language]);
+
   // Fetch available currencies on component mount
   useEffect(() => {
     const fetchCurrencies = async () => {
@@ -435,6 +440,19 @@ function App() {
 
         <div className="info">
           <output className="info-output">{t("infoText")}</output>
+        </div>
+
+        <div className="banner">
+          <p>
+            vibe coded by{" "}
+            <a
+              href="https://instagram.com/amine.arrama"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @amine.arrama
+            </a>
+          </p>
         </div>
       </div>
     </div>
