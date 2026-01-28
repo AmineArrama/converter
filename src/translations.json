@@ -1,0 +1,53 @@
+{
+  "en": {
+    "title": "Moroccan Currency Converter",
+    "subtitle": "Edit any field to convert between currencies",
+    "fromCurrency": "From Currency :",
+    "amount": "Amount :",
+    "madAmount": "MAD Amount :",
+    "centimeAmount": "Moroccan Centime Amount :",
+    "francAmount": "Moroccan Franc Amount :",
+    "exchangeRate": "Exchange Rate",
+    "exchangeRateInfo": "1 {currency} = {rate} MAD (1 MAD = 20 Moroccan Centime = 100 Moroccan Franc)",
+    "loadingExchangeRate": "Loading exchange rate...",
+    "couldNotFetchRate": "Could not fetch exchange rate",
+    "errorFetching": "Error fetching exchange rate: {error}",
+    "infoText": "All fields are editable. Exchange rates are updated in real-time.",
+    "language": "Language",
+    "darkMode": "Dark Mode"
+  },
+  "fr": {
+    "title": "Convertisseur de Devises Marocaines",
+    "subtitle": "Modifiez n'importe quel champ pour convertir entre les devises",
+    "fromCurrency": "De la Devise :",
+    "amount": "Montant :",
+    "madAmount": "Montant MAD :",
+    "centimeAmount": "Montant Centime Marocain  :",
+    "francAmount": "Montant Franc Marocain  :",
+    "exchangeRate": "Taux de Change",
+    "exchangeRateInfo": "1 {currency} = {rate} MAD (1 MAD = 20 Centime Marocain = 100 Franc Marocain)",
+    "loadingExchangeRate": "Chargement du taux de change...",
+    "couldNotFetchRate": "Impossible de récupérer le taux de change",
+    "errorFetching": "Erreur lors de la récupération du taux de change: {error}",
+    "infoText": "Tous les champs sont modifiables. Les taux de change sont mis à jour en temps réel.",
+    "language": "Langue",
+    "darkMode": "Mode Sombre"
+  },
+  "ar": {
+    "title": "محول العملات المغربية",
+    "subtitle": "عدّل أي حقل للتحويل بين العملات",
+    "fromCurrency": "من العملة :",
+    "amount": "المبلغ :",
+    "madAmount": "مبلغ درهم :",
+    "centimeAmount": "مبلغ السنتيم المغربي :",
+    "francAmount": "مبلغ الفرنك المغربي :",
+    "exchangeRate": "سعر الصرف",
+    "exchangeRateInfo": "1 {currency} = {rate} درهم (1 درهم = 20 سنتيم مغربي = 100 فرنك مغربي)",
+    "loadingExchangeRate": "جاري تحميل سعر الصرف...",
+    "couldNotFetchRate": "تعذر جلب سعر الصرف",
+    "errorFetching": "خطأ في جلب سعر الصرف: {error}",
+    "infoText": "جميع الحقول قابلة للتحرير. يتم تحديث أسعار الصرف في الوقت الفعلي.",
+    "language": "اللغة",
+    "darkMode": "الوضع الليلي"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "customCurrencies": {
+    "centime": {
+      "name": "Centime Marocain",
+      "symbol": "¢",
+      "toMAD": 1,
+      "fromMAD": 20
+    },
+    "franc": {
+      "name": "Franc Marocain",
+      "symbol": "₣",
+      "toMAD": 1,
+      "fromMAD": 100
+    }
+  }
+}
